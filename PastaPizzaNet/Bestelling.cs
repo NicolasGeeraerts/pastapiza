@@ -28,7 +28,7 @@ public class Bestelling : IBedrag
         decimal totaalBedrag = gerechtBedrag + drankBedrag + dessertBedrag;
 
         if (Gerecht != null && Drank != null && Dessert != null)
-            totaalBedrag *= 0.9m; // 10% korting op het totale bedrag bij een volledig menu
+            totaalBedrag *= 0.9m; 
 
         return totaalBedrag * Aantal;
     }

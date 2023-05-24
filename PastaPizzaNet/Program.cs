@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main()
     {
-        Klant klant = new Klant { KlantID = 1, Naam = "John Doe" };
+        Klant klant = new Klant { KlantID = 1, Naam = "Nicolas Geeraerts" };
 
         Pizza pizza = new Pizza { Naam = "Margherita" };
         pizza.Onderdelen.Add("Tomatensaus");
@@ -33,9 +33,9 @@ public class Program
 
         Console.WriteLine("Bestelling details:");
         Console.WriteLine("Klant: " + (bestelling.Klant != null ? bestelling.Klant.Naam : "Onbekende klant"));
-        Console.WriteLine("Gerecht: " + bestelling.Gerecht);
-        Console.WriteLine("Drank: " + bestelling.Drank);
-        Console.WriteLine("Dessert: " + bestelling.Dessert);
+        Console.WriteLine("Gerecht: " + bestelling.Gerecht +"  " + bestelling.Gerecht.BerekenBedrag());
+        Console.WriteLine("Drank: " + bestelling.Drank + "  " + bestelling.Drank.BerekenBedrag()) ;
+        Console.WriteLine("Dessert: " + bestelling.Dessert + "  " + bestelling.Dessert.BerekenBedrag()) ;
         Console.WriteLine("Aantal: " + bestelling.Aantal);
         Console.WriteLine("Totale kosten: €" + bestelling.BerekenBedrag());
     }

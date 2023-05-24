@@ -8,7 +8,7 @@ namespace PastaPizzaNet
 {
     public interface IBedrag
     {
-        decimal BerekenBedrag();
+        decimal  BerekenBedrag();
         string ToString();
     }
 }

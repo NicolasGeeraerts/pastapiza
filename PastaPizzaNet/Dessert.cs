@@ -13,6 +13,20 @@ public class Dessert : IBedrag
 
     public decimal BerekenBedrag()
     {
+        switch  Naam)
+        {
+            case "Tiramisu":
+                Prijs = 3;
+                break;
+            case "Ijs":
+                Prijs = 3;
+                break;
+            case "Cake":
+                Prijs = 2;
+                break;
+
+
+        }
         return Prijs;
     }
 

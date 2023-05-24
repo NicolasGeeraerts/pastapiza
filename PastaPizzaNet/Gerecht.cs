@@ -10,7 +10,7 @@ public abstract class Gerecht : IBedrag
     public string Naam { get; set; }
     public decimal Prijs { get; set; }
 
-    public virtual decimal BerekenBedrag()
+    public  decimal BerekenBedrag()
     {
         return Prijs;
     }
