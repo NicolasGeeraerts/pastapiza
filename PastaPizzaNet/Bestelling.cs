@@ -32,4 +32,16 @@ public class Bestelling : IBedrag
 
         return totaalBedrag * Aantal;
     }
+    public virtual string ToString()
+    {
+        string result = "Bestelling details:\n";
+        result += "Klant: " + (Klant != null ? Klant.Naam : "Onbekende klant") + "\n";
+        result += "Gerecht: " + Gerecht + "  " + Gerecht.BerekenBedrag() + "\n";
+        result += "Drank: " + Drank + "  " + Drank.BerekenBedrag() + "\n";
+        result += "Dessert: " + Dessert + "  " + Dessert.BerekenBedrag() + "\n";
+        result += "Aantal: " + Aantal + "\n";
+        result += "Totale kosten: " + BerekenBedrag().ToString("0.00") + "\n";
+
+        return result;
+    }
 }

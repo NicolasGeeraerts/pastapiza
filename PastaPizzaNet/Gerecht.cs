@@ -15,8 +15,8 @@ public abstract class Gerecht : IBedrag
         return Prijs;
     }
 
-    public override string ToString()
+    public virtual string ToString()
     {
-        return Naam;
+        return Naam+ $"Test tekst in gerecht";
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using System.Net.WebSockets;
+
 namespace PastaPizzaNet;
 
 public class Program
@@ -18,7 +20,7 @@ public class Program
             Extras = new List<ExtraSoort> { ExtraSoort.Brood, ExtraSoort.Kaas }
         };
 
-        Frisdrank frisdrank = new Frisdrank { Naam = DrankSoort.CocaCola };
+        Frisdrank frisdrank = new Frisdrank { Naam = DrankSoort.Koffie };
 
         Dessert dessert = new Dessert { Naam = DessertSoort.Tiramisu };
 
@@ -31,12 +33,13 @@ public class Program
             Aantal = 2
         };
 
-        Console.WriteLine("Bestelling details:");
-        Console.WriteLine("Klant: " + (bestelling.Klant != null ? bestelling.Klant.Naam : "Onbekende klant"));
-        Console.WriteLine("Gerecht: " + bestelling.Gerecht +"  " + bestelling.Gerecht.BerekenBedrag());
-        Console.WriteLine("Drank: " + bestelling.Drank + "  " + bestelling.Drank.BerekenBedrag()) ;
-        Console.WriteLine("Dessert: " + bestelling.Dessert + "  " + bestelling.Dessert.BerekenBedrag()) ;
-        Console.WriteLine("Aantal: " + bestelling.Aantal);
-        Console.WriteLine("Totale kosten: €" + bestelling.BerekenBedrag());
+        //Console.WriteLine("Bestelling details:");
+        //Console.WriteLine("Klant: " + (bestelling.Klant != null ? bestelling.Klant.Naam : "Onbekende klant"));
+        //Console.WriteLine("Gerecht: " + bestelling.Gerecht +"  " + bestelling.Gerecht.BerekenBedrag());
+        //Console.WriteLine("Drank: " + bestelling.Drank + "  " + bestelling.Drank.BerekenBedrag()) ;
+        //Console.WriteLine("Dessert: " + bestelling.Dessert + "  " + bestelling.Dessert.BerekenBedrag()) ;
+        //Console.WriteLine("Aantal: " + bestelling.Aantal);
+        //Console.WriteLine("Totale kosten: €" + bestelling.BerekenBedrag());
+        Console.WriteLine(bestelling.ToString());
     }
 }

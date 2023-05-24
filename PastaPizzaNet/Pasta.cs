@@ -12,6 +12,6 @@ public class Pasta : Gerecht
 
     public override string ToString()
     {
-        return $"{Naam} {Omschrijving}";
+        return $"{base.ToString} {Omschrijving}";
     }
 }

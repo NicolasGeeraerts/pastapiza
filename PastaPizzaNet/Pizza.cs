@@ -17,6 +17,6 @@ public class Pizza : Gerecht
 
     public override string ToString()
     {
-        return $"{Naam} ({string.Join(", ", Onderdelen)})";
+        return $"{base.ToString} ({string.Join(", ", Onderdelen)})";
     }
 }
