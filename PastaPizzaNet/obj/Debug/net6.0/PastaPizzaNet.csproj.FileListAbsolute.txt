@@ -1,0 +1,15 @@
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\bin\Debug\net6.0\PastaPizzaNet.exe
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\bin\Debug\net6.0\PastaPizzaNet.deps.json
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\bin\Debug\net6.0\PastaPizzaNet.runtimeconfig.json
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\bin\Debug\net6.0\PastaPizzaNet.dll
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\bin\Debug\net6.0\PastaPizzaNet.pdb
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.csproj.AssemblyReference.cache
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.AssemblyInfoInputs.cache
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.AssemblyInfo.cs
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.csproj.CoreCompileInputs.cache
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.dll
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\refint\PastaPizzaNet.dll
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.pdb
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\PastaPizzaNet.genruntimeconfig.cache
+C:\Users\nico1\Desktop\VSCode-DOTNET6\PastaPizzaNet\PastaPizzaNet\obj\Debug\net6.0\ref\PastaPizzaNet.dll
