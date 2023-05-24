@@ -20,7 +20,7 @@ public class Program
             Extras = new List<ExtraSoort> { ExtraSoort.Brood, ExtraSoort.Kaas }
         };
 
-        Frisdrank frisdrank = new Frisdrank { Naam = DrankSoort.Koffie };
+        Frisdrank frisdrank = new Frisdrank { Naam = DrankSoort.CocaCola };
 
         Dessert dessert = new Dessert { Naam = DessertSoort.Tiramisu };
 
