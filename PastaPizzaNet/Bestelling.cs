@@ -32,7 +32,7 @@ public class Bestelling : IBedrag
 
         return totaalBedrag * Aantal;
     }
-    public virtual string ToString()
+    public override string ToString()
     {
         string result = "Bestelling details:\n";
         result += "Klant: " + (Klant != null ? Klant.Naam : "Onbekende klant") + "\n";

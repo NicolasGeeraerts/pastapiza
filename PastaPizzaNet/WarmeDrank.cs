@@ -9,21 +9,17 @@ namespace PastaPizzaNet;
 
 public class WarmeDrank : Drank
 {
-    public class WarmeDrank : Drank
+    public WarmeDrank(DrankSoort drankSoort)
     {
-        public WarmeDrank()
+        if (drankSoort == DrankSoort.Koffie || drankSoort == DrankSoort.Thee)
         {
-            if (DrankSoort == DrankSoort.Koffie or DrankSoort== DrankSoort.Thee )
-            {
-                Prijs = 2.5m;
-            }
-            else
-            {
-
-                throw new InvalidOperationException("Ongeldige DrankSoort opgegeven.");
-            }
+            Naam = drankSoort;
+            Prijs = 2.5m;
         }
-
-
+        else
+        {
+            throw new InvalidOperationException("Ongeldige DrankSoort opgegeven.");
+        }
     }
+}
 
